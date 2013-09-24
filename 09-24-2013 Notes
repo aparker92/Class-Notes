@@ -1,0 +1,16 @@
+Can clone data sets from safari books online to github
+Clone vagrant-python-data-analysis
+
+End paper will look like something from plos one (maybe about collaborative experience or our end probject)
+
+REFLECTIONS
+- plusses, deltas, what direction we should go....
+
+iPython Notebook
+- create new notebook
+- rename by clicking on the title of the notebook
+- instal gspread - for google spreadsheets
+--- open shell in linux terminal inside virtual box (ctrl z to pause it and then type vg background to put ipython in the background)
+--- sudo pip install gspread
+----- install pip first: sudo apt-get install python-pip
+- create a configuration file
