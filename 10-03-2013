@@ -1,0 +1,58 @@
+Stochastic Models - like to put earthquakes into models 
+	Earthquakes 6 and above
+	Earthquakes in space and time
+Marked Sochaistic Models
+	Earthquakes in same places a lot no matter size, but big sizes are less frequent
+	Poisson (special Gamma)
+		model of things that don’t age
+	ETAS - epidemic type aftershock
+		one event can spawn other events (any number of children, only one parent)
+Brownian Passage Time
+	Brownian going until meet threshold
+USGS 1999
+	P(M>=6.7 event by 2030) = .7+-.1
+	Interpretations
+		In repeated trials, how often would this happen
+		I believe more strongly that it will happen than not. 2 and ⅓ times more likely than it won’t
+	How came to conclusion
+		Stage 1
+			How distance between two points is changing with time (how much ground is moving)
+			Then look at geological shifts to see if done abruptly (by earthquake)
+			Slip Factor - how much movement is accommodated aseismically
+			Then model deviations by average values as Gaussian random variables
+			Draw at random one of three generic relationships between seismic fault and moment (as in physics)
+			Then find expected magnitude
+			Repeat until 2000 times meet slip constraint
+		Stage 2
+			Fit 3 stochastic models for occurance and combine to estimate probability of large earthquake
+	What’s wrong with this
+		Not a Probability by any standard interpretation of probability
+		Equate Frequencies to Probabilities
+		No standard for equal probability assumptions and data not global
+		Earthquake probability is a metaphor
+		People argue about the rules of the game
+AGU Article and Rebuttal 
+	Urn models for natural disasters (black or white marbles)
+	Different models
+		Sampling with replacement
+		Adding more marbles when no event occurs
+	Rate does not mean that there is a probability - There is nothing random
+	Point: assuming that there is an average time between failures doesn’t mean there is a probability distribution and many can be made with the same average time
+Testing Predictions
+	Need to show merit beyond just lucky
+	Need a chance model for successful predictions: Does method succeed beyond chance
+	Typically
+		Model earthquakes to be stochaistic (estimated by historical rates) then hold the predictions fixed
+		Then see how often predictions would have been right
+		Could also deorganize it so times are different
+	Issues with that
+		Analogy to weather prediction
+		Most schemes lose dependence of predictions on history
+		Don’t account for clustering
+		“If earthquake today, predict earthquake tomorrow” works well (like predicting rain)
+		Can’t say know probability distribution/parameters of them - and predictions won’t change based on what see
+		We need to find a way to test things without assuming earthquakes are random
+Is there a permutation approach?
+	Null: predictions not better than chance? or no better than simpler method?
+	Need reasonable null hypothesis
+	parimutuel payoff
